@@ -2,6 +2,7 @@
   color: #42032c;
 }
 
+
 .navbar {
   background-color: white !important;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 10px -20px;
@@ -75,13 +76,58 @@
   height: auto;
 }
 
-.card h4{
+.card-container .card h4{
 
   border-bottom: 1px solid  #9c5d23;
   margin: auto;
   width: fit-content;
   padding-bottom: 0.3rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0rem;
+}
+
+.card img{
+  height: 15rem;
+}
+.card .btn{
+  background-color: #9c5d23;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.1) 0px 4px 4px, rgba(0, 0, 0, 0.1) 0px 8px 8px,
+    rgba(0, 0, 0, 0.1) 0px 16px 16px; 
+    color: white;
+}
+
+#about button{
+   background-color: #9c5d23;
+   color: white;
+  margin-right: 43%;
+  margin-left: 43%;
+  width: max-content;
+   margin-bottom: 3rem;
+   
+}
+
+.about-content{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  margin: auto;
+  color: #9c5d23;
+}
+.form-container button{
+  background-color: #9c5d23;
+   color: white;
+   margin-top: 2rem;
+}
+.form-control{
+  border: 1px solid #9c5d23;
+}
+
+.footer a{
+  color: white;
 }
 
 @media screen and (max-width: 780px) {
@@ -89,4 +135,5 @@
     display: flex;
     flex-direction: column-reverse;
   }
+ 
 }
